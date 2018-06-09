@@ -1,0 +1,138 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Introduction &#8212; The Django Book 0.1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="About this book" href="frontmatter.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<p>In the early days, Web developers wrote every page by hand. Updating a Web site
+meant editing HTML; a “redesign” involved redoing every single page, one at a
+time.</p>
+<p>As Web sites grew and became more ambitious, it quickly became obvious that that
+situation was tedious, time-consuming, and ultimately untenable. A group of
+enterprising hackers at NCSA (the National Center for Supercomputing
+Applications, where Mosaic, the first graphical Web browser, was developed)
+solved this problem by letting the Web server spawn external programs that could
+dynamically generate HTML. They called this protocol the Common Gateway
+Interface, or CGI, and it changed the Web forever.</p>
+<p>It’s hard now to imagine what a revelation CGI must have been: instead of
+treating HTML pages as simple files on disk, CGI allows you to think of your
+pages as resources generated dynamically on demand. The development of CGI
+ushered in the first generation of dynamic Web sites.</p>
+<p>However, CGI has its problems: CGI scripts need to contain a lot of repetitive
+“boilerplate” code, they make code reuse difficult, and they can be difficult
+for first-time developers to write and understand.</p>
+<p>PHP fixed many of these problems, and it took the world by storm – it’s now by
+far the most popular tool used to create dynamic Web sites, and dozens of
+similar languages and environments (ASP, JSP, etc.) followed PHP’s design
+closely. PHP’s major innovation is its ease of use: PHP code is simply embedded
+into plain HTML; the learning curve for someone who already knows HTML is
+extremely shallow.</p>
+<p>But PHP has its own problems; its very ease of use encourages sloppy,
+repetitive, ill-conceived code. Worse, PHP does little to protect programmers
+from security vulnerabilities, and thus many PHP developers found themselves
+learning about security only once it was too late.</p>
+<p>These and similar frustrations led directly to the development of the current
+crop of “third-generation” Web development frameworks. These frameworks –
+Django and Ruby on Rails appear to be the most popular these days – recognize
+that the Web’s importance has escalated of late. With this new explosion of Web
+development comes yet another increase in ambition; Web developers are expected
+to do more and more every day.</p>
+<p>Django was invented to meet these new ambitions. Django lets you build deep,
+dynamic, interesting sites in an extremely short time. Django is designed to let
+you focus on the fun, interesting parts of your job while easing the pain of the
+repetitive bits. In doing so, it provides high-level abstractions of common Web
+development patterns, shortcuts for frequent programming tasks, and clear
+conventions on how to solve problems. At the same time, Django tries to stay out
+of your way, letting you work outside the scope of the framework as needed. We
+wrote this book because we firmly believe that Django makes Web development
+better. It’s designed to quickly get you moving on your own Django projects, and
+then ultimately teach you everything you need to know to successfully design,
+develop, and deploy a site that you’ll be proud of.</p>
+<p>We’re extremely interested in your feedback. This book is <a class="reference external" href="http://github.com/jacobian/djangobook.com">open source</a> and
+all are welcome to improve it. If you prefer to suggest changes, please drop us
+a line at <a class="reference external" href="mailto:feedback&#37;&#52;&#48;djangobook&#46;com">feedback<span>&#64;</span>djangobook<span>&#46;</span>com</a>. Either way, we’d love to hear from you! We’re
+glad you’re here, and we hope that you find Django as exciting, fun and useful
+as we do.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="frontmatter.html" title="previous chapter">About this book</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/introduction.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, suhailvs.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/introduction.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
